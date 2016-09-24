@@ -3,12 +3,12 @@ Command line instructions
 
 Git global setup
 
-git config --global user.name "Changhua Pei"
-git config --global user.email "me@zhuzhusir.com"
+git config --global user.name ""
+git config --global user.email ""
 
 Create a new repository
 
-git clone ssh://git@git.peidan.me:2222/peich14/test.git
+git clone https://xxxx
 cd test
 touch README.md
 git add README.md
@@ -19,7 +19,7 @@ Existing folder or Git repository
 
 cd existing_folder
 git init
-git remote add origin ssh://git@git.peidan.me:2222/peich14/test.git
+git remote add origin https://xxxxx
 git add .
 git commit
 git push -u origin master
