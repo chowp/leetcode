@@ -1,0 +1,25 @@
+Command line instructions
+
+
+Git global setup
+
+git config --global user.name "Changhua Pei"
+git config --global user.email "me@zhuzhusir.com"
+
+Create a new repository
+
+git clone ssh://git@git.peidan.me:2222/peich14/test.git
+cd test
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder or Git repository
+
+cd existing_folder
+git init
+git remote add origin ssh://git@git.peidan.me:2222/peich14/test.git
+git add .
+git commit
+git push -u origin master
